@@ -1,0 +1,16 @@
+The purpose of this repository is to explore the class project which set out to create a Microsoft Azure Virtual Network.
+The virtual network had a number of key features which include the following
+
+Jump box
+Load balancer
+Web servers
+Elk Server
+
+Each of these environments were part of virtual networks. The primary network is the one related to Red Team which hosted the jumpbox,webservers and load balancers. The Elk Server resided on a different zone.
+The jumpbox hosted docker ansible containers which were utilized to push filebeat loging which was configured on the Elk Server.
+WIthin this Respostiry, there are a few folders
+
+Architecture Diagram - Includes the topology and network diagram with IP Addresses and connection types
+Ansible - these are the various ansible configuraiton files and yml files to push items
+Linux - limited bash scripting enabled
+Screen shots - these are supporting material for the project which include the logs firing off from the WEb Servers to the Elk SErver
